@@ -1,163 +1,236 @@
 * {
-    box-sizing: border-box;
-    /* text-align: center; */
-  }
-
-header{
-    color:#4aaaa5;
-    background-color: #ffffff;
-    border: #cccccc;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 100%;
-    height: 100px;
+  box-sizing: border-box;
+  /* text-align: center; */
 }
 
-#frame1{
-    width: 80%;
+header {
+  color: #4aaaa5;
+  background-color: #ffffff;
+  border: #cccccc;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 100%;
+  height: 100px;
 }
 
-#box1{
-    float: left;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    padding: 20px;
-    height: 100px;
-    /* margin-left: 20px; */
+#frame1 {
+  width: 80%;
 }
 
-#box2{
-    position: relative;
-    float: right;
-    top: 40px;
-    border: #cccccc;
+#box1 {
+  float: left;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  padding: 20px;
+  height: 100px;
+  /* margin-left: 20px; */
+}
 
+#box2 {
+  position: relative;
+  float: right;
+  top: 40px;
+  border: #cccccc;
 }
 
 #grey {
-    background-color: #ffffff;
-    border-color: #666666;
-    border-width: 3px;
-    width: 80%;
-    margin: auto;
-    padding: 25px;
+  background-color: #ffffff;
+  border-color: #666666;
+  border-width: 3px;
+  width: 80%;
+  margin: auto;
+  padding: 25px;
 }
 
-#aboutimg{
-    /* width: 20%; */
-    float: left;
-    margin: 25px;
-    /* display: inline; */
+#aboutimg {
+  /* width: 20%; */
+  float: left;
+  margin: 25px;
+  /* display: inline; */
 }
 
-#p01{
-    /* width: 80%; */
-    /* display: inline; */
+#p01 {
+  /* width: 80%; */
+  /* display: inline; */
 }
 
-body{
-    /* background-color: #d3d1d1; */
-    background-image: url("https://static.vecteezy.com/system/resources/previews/000/109/425/non_2x/free-vector-watercolor-paper-texture.jpg");
-    background-repeat:  repeat;
-    border: #dddddd;
-    font-family:  Arial, 'Helvetica Neue', Helvetica, sans-serif;
-    width: 100%;
-    margin: auto;
+body {
+  /* background-color: #d3d1d1; */
+  background-image: url("https://static.vecteezy.com/system/resources/previews/000/109/425/non_2x/free-vector-watercolor-paper-texture.jpg");
+  background-repeat: repeat;
+  border: #dddddd;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  width: 100%;
+  margin: auto;
 }
 
-#box4{
-    background-color: #4aaaa5;
-    height: 10px;
-    widows: 5px;
+#box4 {
+  background-color: #4aaaa5;
+  height: 10px;
+  widows: 5px;
 }
 
-
-footer{
-    background-color: #666666;
-    padding: 20px;
-    width: 100%;
-    height: 50px;
+footer {
+  background-color: #666666;
+  padding: 20px;
+  width: 100%;
+  height: 50px;
 }
 
-a:hover{
-    color: #4aaaa5;
+a:hover {
+  color: #4aaaa5;
 }
 
-a:focus{
-    color: red;
+a:focus {
+  color: red;
 }
 
 a:active {
-    color: #4aaaa5;
-    /* font-size: 36px; */
+  color: #4aaaa5;
+  /* font-size: 36px; */
 }
 
 .button {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-property: transform;
-    transition-property: transform;
-    /* margin: .4em; */
-    padding: 1em;
-    cursor: pointer;
-    background: #e1e1e1;
-    text-decoration: none;
-    color: #666;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
-    -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  /* margin: .4em; */
+  padding: 1em;
+  cursor: pointer;
+  background: #e1e1e1;
+  text-decoration: none;
+  color: #666;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-font-smoothing: antialiased;
 }
 
-.portfolioContent{
-    /* height: 250px; */
-    /* width: 350px; */
-    border-width: 10px;
-    padding: 25px;
-    margin: 25px;
-    margin-bottom: 25px;
-    display: inline-block;
-    text-align: center;
-    font-weight: bold;
+.portfolioContent {
+  /* height: 250px; */
+  /* width: 350px; */
+  border-width: 10px;
+  padding: 25px;
+  margin: 25px;
+  margin-bottom: 25px;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
 }
 
-.labelBanner{
-    position: relative;
-    top: -50px;
+.labelBanner {
+  position: relative;
+  top: -50px;
+  width: 100%;
+  height: 30px;
+  background-color: #4aaaa5;
+}
+
+#contentSec {
+  margin-bottom: 250px;
+}
+
+.contentPic {
+  width: 50px;
+  height: auto;
+  margin: 5px;
+}
+
+@media screen and (max-width: 980px) {
+  .portfolioContent {
+    margin: auto;
+    display: inline-block;
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #frame1 {
     width: 100%;
-    height: 30px;
-    background-color: #4aaaa5;
+  }
+
+  #box1 {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+  }
+
+  #box2 {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    top: auto;
+    float: none;
+    content: "";
+    clear: both;
+    display: table;
+    overflow: auto;
+    background-color: #e1e1e1;
+    height: 50px;
+  }
+
+  #grey {
+    content: "";
+    clear: both;
+    display: inline;
+    display: table;
+    overflow: auto;
+    margin-top: 22px;
+    padding-top: 20px;
+    /* width: 80%; */
+  }
+
+  .col-md-8{
+      margin-top: 50px; 
+      width: 80%;
+      margin: 0;
+  }
+
+  .col-md-4{
+      display:none;
+  }
 }
 
-#contentSec{
-    margin-bottom: 250px;
+@media screen and (max-width: 640px) {
+  #frame1 {
+    width: 100%;
+  }
+
+  #box1 {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+  }
+
+  #box2 {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    top: auto;
+    float: none;
+    content: "";
+    clear: both;
+    display: table;
+    overflow: auto;
+    background-color: #e1e1e1;
+    height: 50px;
+  }
+
+  #grey {
+    content: "";
+    clear: both;
+    display: inline;
+    display: table;
+    overflow: auto;
+    padding-top: 60px;
+    /* width:80%; */
+  }
+
+  .col-md-4{
+    display:none;
 }
-
-.contentPic{
-    width: 50px;
-    height: auto;
-    margin: 5px;
-}
-
-@media only screen and (max-with: 980px){
-
-    .portfolioContent{
-        margin: auto;
-        display: inline-block;
-        max-width: 500px;
-
-    };
-
-}
-
-@media only screen and (max-with: 768px){
-
-
-}
-
-@media only screen and (max-with: 640px){
-
 
 }
